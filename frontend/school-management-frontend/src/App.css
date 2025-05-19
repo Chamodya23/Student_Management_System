@@ -1,0 +1,152 @@
+
+/* Base Styles */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9faee; 
+        color: #212529;
+    }
+    
+    /* Header Styles */
+    .navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-brand {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+    
+    /* Table Styles */
+    .table {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+        margin-top: 1rem;
+    }
+    
+    .table th {
+        background-color: #000000;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+    }
+    
+    /* Card Styles */
+    .card {
+        border: none;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        margin-bottom: 2rem;
+    }
+    
+    .card-header {
+        font-weight: 500;
+        padding: 1rem 1.25rem;
+    }
+    
+    /* Form Styles */
+    .form-control:focus, .form-select:focus {
+        border-color: #86b7fe;
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    }
+    
+    .invalid-feedback {
+        display: block;
+        margin-top: 0.25rem;
+    }
+    
+    .is-invalid {
+        border-color: #dc3545;
+    }
+    
+    /* Button Styles */
+    .btn {
+        font-weight: 500;
+        padding: 0.375rem 0.75rem;
+        transition: all 0.15s ease;
+    }
+    
+    .btn-primary {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+    
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+    
+    .btn-danger:hover {
+        background-color: #bb2d3b;
+        border-color: #b02a37;
+    }
+    
+    .btn-info {
+        background-color: #0dcaf0;
+        border-color: #0dcaf0;
+    }
+    
+    .btn-info:hover {
+        background-color: #31d2f2;
+        border-color: #25cff2;
+    }
+    
+    /* Spacing Utilities */
+    .mt-4 {
+        margin-top: 1.5rem !important;
+    }
+    
+    .mb-4 {
+        margin-bottom: 1.5rem !important;
+    }
+    
+    /* Loading Spinner */
+    .spinner-border {
+        vertical-align: middle;
+    }
+    
+    /* Toast Notifications */
+    .Toastify__toast {
+        border-radius: 0.25rem;
+        font-family: inherit;
+    }
+    
+    .Toastify__toast--success {
+        background-color: #198754;
+    }
+    
+    .Toastify__toast--error {
+        background-color: #dc3545;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .table-responsive {
+        border: 0;
+        }
+        
+        .card {
+        margin-top: 1rem;
+        }
+    }
+    
+    /* Confirmation Dialog */
+    .react-confirm-alert-overlay {
+        background: rgba(0, 0, 0, 0.5) !important;
+    }
+    
+    .react-confirm-alert-body {
+        font-family: inherit;
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .react-confirm-alert-button-group button {
+        margin: 0 0.5rem;
+        padding: 0.375rem 1rem;
+    }
